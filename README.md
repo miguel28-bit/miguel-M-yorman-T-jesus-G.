@@ -73,3 +73,128 @@ Eliges Imágenes, escaneas, miras la vista previa para ver si no están rotas y 
 
 
 Cómo elegir la ubicación para escanearEn la pantalla "¿Dónde estaban los archivos?", elige según el caso:Toda la PC: Marca "No estoy seguro". Busca en todos los discos (C:, D:, etc.). Demora un montón.Papelera: Marca "En la Papelera de reciclaje". Fijo si borraste algo, se fue ahí y luego la vaciaste.USB / Tarjetas SD: Marca "En mi tarjeta multimedia". Rastrear solo memorias externas, cámaras o celulares conectados.Carpetas específicas: Marca "En una ubicación específica", dale a Buscar y elige la carpeta exacta (ej. Escritorio o Descargas). Es la opción más rápida de todas.
+
+*Parte 1*
+
+<img width="921" height="308" alt="image" src="https://github.com/user-attachments/assets/4b9ecae7-3ec1-41c9-8f54-16aa7cf7c339" />
+
+<img width="921" height="324" alt="image" src="https://github.com/user-attachments/assets/3683fc9f-60d0-48db-b7a7-6949f2c6bde6" />
+
+<img width="921" height="371" alt="image" src="https://github.com/user-attachments/assets/999dafb4-9edf-4887-b7f2-fb19c272f269" />
+
+<img width="921" height="504" alt="image" src="https://github.com/user-attachments/assets/f17a9fce-964b-41ff-bd1e-fd0242e58307" />
+
+<img width="921" height="525" alt="image" src="https://github.com/user-attachments/assets/71ee029d-83d2-4057-b013-23b11a4de758" />
+
+*¿Qué hace cada parte?*
+
+•	apt-get update → actualiza la información sobre los programas disponibles en los repositorios. 
+
+•	&& → indica que el segundo comando se ejecutará solo si el primero termina correctamente. 
+
+•	apt-get install → instala un programa. 
+
+•	-y → responde automáticamente "sí" a las preguntas de confirmación. 
+
+•	nmap → es una herramienta utilizada para explorar redes y comprobar qué dispositivos, puertos y servicios están disponibles
+
+
+*Parte 2*
+
+<img width="921" height="558" alt="image" src="https://github.com/user-attachments/assets/1f7c3986-fb52-4abb-ad0b-4a3a78d96ba3" />
+
+<img width="921" height="494" alt="image" src="https://github.com/user-attachments/assets/9d36d2e0-8853-4753-93ec-f10578cdd05b" />
+
+<img width="921" height="485" alt="image" src="https://github.com/user-attachments/assets/13beb18d-27a4-47c4-8835-937387fc5999" />
+
+  nmap → inicia la herramienta Nmap. 
+ 
+  -v → muestra más información durante el escaneo (modo detallado). 
+  
+  -A → activa varias funciones de detección, como sistema operativo, versiones de   servicios y otros datos. 
+  
+  scanme.nmap.org → es el objetivo que se va a analizar.
+
+*Parte 3*
+
+<img width="921" height="146" alt="image" src="https://github.com/user-attachments/assets/cab517d2-5373-445e-8e00-cd6e6688cf14" />
+
+<img width="530" height="130" alt="image" src="https://github.com/user-attachments/assets/f01df18e-d277-473e-8274-46131c013fcb" />
+
+  import os → permite que Python interactúe con funciones del sistema operativo. 
+  
+  os.system(...) → ejecuta un comando de la terminal desde Python. 
+  
+  apt install nmap → intenta instalar Nmap mediante el gestor de paquetes apt7
+
+_soluncion 5_
+
+<img width="921" height="180" alt="image" src="https://github.com/user-attachments/assets/899f1658-b693-48f7-858b-6a4ea622166d" />
+
+ 
+Instala colab-xterm, una extensión que permite abrir una terminal de comandos dentro de Google Colab.
+
+•	! → le dice a Google Colab que ejecute un comando de sistema. 
+
+•	pip install → instala un paquete de Python. 
+
+•	colab-xterm → paquete que permite utilizar una terminal interactiva dentro de Colab
+
+<img width="405" height="184" alt="image" src="https://github.com/user-attachments/assets/8dc578f7-06bd-4f6d-a8d1-6b4a8a6e0218" />
+
+  %load_ext colab_xterm → carga la extensión colab_xterm que instalaste anteriormente. 
+
+  %xterm → crea y muestra una terminal interactiva dentro de Colab
+
+  <img width="756" height="302" alt="image" src="https://github.com/user-attachments/assets/f72081be-ec1c-4462-943d-5a76ee249939" />
+
+    pwd (Print Working Directory): Muestra la ruta completa del directorio o carpeta donde te encuentras ubicado actualmente.
+  ls -la: Lista todos los archivos y carpetas del directorio actual en formato detallado (permisos, propietario, tamaño y fecha de modificación), incluyendo los archivos ocultos (los que empiezan con un punto .).
+
+  cd /content (Change Directory): Te traslada a la carpeta llamada /content dentro de la raíz del sistema de archivos.
+  
+  mkdir proyectos (Make Directory): Crea una nueva carpeta llamada proyectos dentro del directorio en el que estás posicionado
+
+<img width="842" height="286" alt="image" src="https://github.com/user-attachments/assets/6dd442bb-ee75-4e24-8744-374267576296" />
+
+  touch archivo.txt: Crea un archivo vacío con el nombre archivo.txt (o actualiza su fecha de modificación si ya existe).
+
+  echo "Hola" > archivo.txt: Escribe el texto "Hola" dentro de archivo.txt. El operador > sobrescribe el contenido del archivo si este ya existía.
+  
+  cat archivo.txt (Concatenate): Muestra en la pantalla de la terminal todo el contenido del archivo archivo.txt.
+  
+  rm archivo.txt (Remove): Elimina de forma permanente el archivo archivo.txt.
+  
+  cp archivo.txt copia.txt (Copy): Crea una copia exacta de archivo.txt y la guarda con el nuevo nombre copia.txt
+
+<img width="921" height="626" alt="image" src="https://github.com/user-attachments/assets/e1b9b9ac-5590-425b-83a5-ddeb345d78da" />
+
+<img width="921" height="462" alt="image" src="https://github.com/user-attachments/assets/501071e6-b2a4-412e-b617-d62d350afbc9" />
+
+•	whoami (Who Am I?): Muestra el nombre del usuario que tiene la sesión activa en la terminal.
+
+•	lscpu (List CPU): Muestra información detallada sobre el procesador de la máquina (arquitectura, número de núcleos, velocidad, memoria caché, etc.).
+
+•	nvidia-smi (NVIDIA System Management Interface): Muestra el estado de la tarjeta gráfica (GPU) NVIDIA, incluyendo su uso actual, temperatura, memoria VRAM ocupada y los procesos ejecutándose en ella.
+
+•	free -h: Muestra la cantidad de memoria RAM y espacio de intercambio (swap) libre y usado. El parámetro -h (human-readable) presenta los valores en formato fácil de leer (MB, GB).
+
+•	df -h (Disk Free): Muestra el espacio disponible y ocupado en el disco duro para cada partición del sistema, también expresado en formato legible (GB, TB) gracias al flag -h
+
+<img width="770" height="630" alt="image" src="https://github.com/user-attachments/assets/9a7f3c51-18f9-45f4-83f7-d1bc1511a933" />
+
+  curl ifconfig.me: Realiza una petición web al servidor de ifconfig.me para obtener y mostrar en pantalla tu dirección IP pública actual.
+ 
+  ping -c 4 8.8.8.8: Comprueba la conectividad de red con el servidor de DNS público de Google (8.8.8.8). 
+  
+  El parámetro -c 4 limita la prueba a exactamente 4 paquetes enviados.
+  
+  nmap -v scanme.nmap.org: Escanea el dominio de prueba de Nmap para descubrir puertos abiertos y servicios activos. 
+  
+  El flag -v (verbose) muestra detalles en tiempo real a medida que avanza el escaneo.
+  
+  nmap -sn 192.168.1.0/24: Realiza un escaneo de descubrimiento de red (anteriormente conocido como ping sweep) en todo el rango local de 
+  la red 192.168.1.0/24. 
+ 
+ La opción -sn le indica a Nmap que no escanee puertos, sino que solo identifique qué equipos están encendidos/conectados
+
