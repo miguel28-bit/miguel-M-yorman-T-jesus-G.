@@ -58,7 +58,7 @@ R= busco por google "RECUVA" y instalo la version portable ya que esta version n
 
 Ejecución en tu PC Personal Expulsa la memoria USB de la otra computadora de forma segura.Conéctala en tu PC personal (la que tiene los datos perdidos).Abre la carpeta descomprimida dentro de la USB y ejecuta el archivo según tu sistema:Si tu Windows es de 64 bits: Haz doble clic en recuva64.exe.Si tu Windows es de 32 bits: Haz doble clic en recuva.exe.Windows te pedirá permisos de administrador; haz clic en Sí.¡Listo! El asistente de Recuva se abrirá en tu pantalla corriendo directamente desde la USB, manteniendo el disco duro de tu PC intacto y listo para el escaneo.Si ya tienes el programa abierto desde la USB, indícame:
 
-<img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/c28c64d9-16e2-45f6-8e59-962e32aa8a96" />
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/c28c64d9-16e2-45f6-8e59-962e32aa8a96" />
 
 ## 3 <img width="646" height="166" alt="image" src="https://github.com/user-attachments/assets/7e0f0ea8-1b83-47fd-a422-85188289edf4"/>
       
