@@ -70,4 +70,6 @@ tipos de archivos que podria recuperar: practicamente recuva sirve para recupera
 
 ## Cómo recuperar según el tipo de archivoFotos:
 Eliges Imágenes, escaneas, miras la vista previa para ver si no están rotas y recuperas.Documentos: Eliges Documentos, escaneas y usas el filtro con el nombre del archivo. Ojo al color verde (indica que está sano).Videos: Eliges Video. Como son pesados, si no salen a la primera, activa el Escaneo Profundo (Deep Scan).Todos los archivos: Solo si buscas formatos raros (ZIP, RAR, EXE). Usa la "Vista avanzada" para escribir la extensión exacta
+
+
 Cómo elegir la ubicación para escanearEn la pantalla "¿Dónde estaban los archivos?", elige según el caso:Toda la PC: Marca "No estoy seguro". Busca en todos los discos (C:, D:, etc.). Demora un montón.Papelera: Marca "En la Papelera de reciclaje". Fijo si borraste algo, se fue ahí y luego la vaciaste.USB / Tarjetas SD: Marca "En mi tarjeta multimedia". Rastrear solo memorias externas, cámaras o celulares conectados.Carpetas específicas: Marca "En una ubicación específica", dale a Buscar y elige la carpeta exacta (ej. Escritorio o Descargas). Es la opción más rápida de todas.
