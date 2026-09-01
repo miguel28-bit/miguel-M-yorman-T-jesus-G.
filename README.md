@@ -197,8 +197,10 @@ Instala colab-xterm, una extensión que permite abrir una terminal de comandos d
   la red 192.168.1.0/24. 
  
  La opción -sn le indica a Nmap que no escanee puertos, sino que solo identifique qué equipos están encendidos/conectados
- ##6
- codigo
+ 
+ # 6codigo
+ ```python
+
 import requests
 
 API_KEY = "sk-6549f06fb6b941cea7442e5451561a58"
