@@ -265,3 +265,49 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+```
+
+
+
+
+
+
+Recuva
+
+### 1. ¿Qué es Recuva y para qué se utiliza?
+Recuva es un programa gratuito desarrollado por Piriform que sirve para recuperar archivos que borramos por accidente. Funciona para restaurar datos borrados de la papelera, discos duros, memorias USB, tarjetas SD o reproductores de música.
+
+
+
+### 2. ¿En qué sistemas operativos puede funcionar Recuva?
+Funciona únicamente en Windows (desde Windows XP hasta Windows 11, en versiones de 32 y 64 bits).
+
+
+### 3. ¿Cuál es la importancia de elegir la ubicación correcta para el escaneo en Recuva?
+Es clave porque si seleccionamos la carpeta o unidad específica donde estaba el archivo, el escaneo tarda muchísimo menos tiempo, consume menos RAM y no pone a trabajar el disco escaneando sectores donde sabemos que no hay nada.
+
+
+### 4. ¿Qué significa el indicador de color verde al lado de un archivo en Recuva?
+Significa que el archivo está en excelente estado. Quiere decir que sus datos no han sido sobreescritos por otra información y las probabilidades de recuperarlo intacto son muy altas
+
+### 5. ¿Qué diferencia hay entre un escaneo normal y un escaneo profundo en Recuva?
+* **Escaneo Normal:** Es súper rápido (tarda segundos o minutos). Revisa la tabla del sistema de archivos (*MFT* o *FAT*) para encontrar lo que se borró recientemente.
+* **Escaneo Profundo:** Analiza el disco sector por sector buscando las firmas del archivo (*magic bytes*). Tarda bastante tiempo (horas según el tamaño del disco), pero sirve para encontrar archivos en discos formateados o corruptos.
+
+### 6. ¿Por qué es recomendable guardar los archivos recuperados en una unidad diferente a la que se escaneó?
+Porque si guardamos el archivo en la misma unidad, corremos el riesgo de que al escribirse **sobreescriba** los sectores donde están otros archivos borrados que aún no hemos recuperado, dañándolos para siempre.
+
+### 7. Enumera tres tipos de archivos que se pueden recuperar con Recuva.
+1. **Imágenes:** `.jpg`, `.png`
+2. **Documentos:** `.pdf`, `.docx`
+3. **Archivos de audio:** `.mp3`, `.wav`
+
+### 8. ¿Qué limitación común tiene Recuva al recuperar archivos en cuanto a la estructura de carpetas?
+Que muchas veces pierde la ruta original y la jerarquía del sistema. Suele recuperar los archivos "sueltos" en la carpeta donde los guardemos, sin mantener el orden de carpetas y subcarpetas que tenían antes.
+
+### 9. ¿Qué indica un archivo marcado con un círculo rojo en los resultados de Recuva?
+Indica que el archivo está **irrecuperable**. Significa que los sectores del disco donde estaba guardado ya fueron sobreescritos total o parcialmente por nuevos datos.
+
+### 10. ¿Cuál es la recomendación principal para aumentar las chances de recuperación exitosa con Recuva después de borrar un archivo?
+**Dejar de usar la unidad de inmediato**. No debemos descargar nada, ni mover archivos, ni seguir instalando programas en esa unidad para evitar que el sistema operativo escriba datos nuevos encima de los sectores del archivo borrado.
